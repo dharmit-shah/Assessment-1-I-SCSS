@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: 'Poppins';
+  overflow: hidden;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-grow-1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-vertical {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+#dropdown {
+  border: 0ch;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+.main {
+  padding: 20px;
+  background-color: #fafafa;
+  text-align: right;
+}
+
+.filter {
+  width: 100%;
+}
+
+.btn-btn-primary {
+  background-color: #00b11c;
+  outline: none;
+  height: 45px;
+  width: 110px;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-text {
+  color: #effff3;
+  font-size: 1rem;
+}
+
+.filter-text:hover {
+  color: black;
+}
+
+.card-section {
+  margin: 10px 0 10px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  width: 15%;
+  padding: 15px;
+  background-color: white;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.card-box-left {
+  width: 175px;
+  text-align: left;
+}
+
+.card-right-icons {
+  margin: 13px;
+  font-size: 1.5rem;
+}
+
+.card-box-right1 {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+.card-box-right2 {
+  background-color: #d7f8ff;
+  border-radius: 50%;
+}
+
+.card-box-right3 {
+  background-color: #e7f8f0;
+  border-radius: 50%;
+}
+
+.card-box-right4 {
+  background-color: #fff4e8;
+  border-radius: 50%;
+}
+
+.card-box-right5 {
+  background-color: #f1f0ff;
+  border-radius: 50%;
+}
+
+.card-box-right6 {
+  background-color: #ffeeed;
+  border-radius: 50%;
+}
+
+.card:hover {
+  background-color: #939393;
+  color: white;
+}
+
+.title2 {
+  margin: 15px 0 15px 0;
+  font-size: 1.25rem;
+}
+
+.table-sec {
+  padding-top: 15px;
+  height: 600px;
+}
+
+.table-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: white;
+}
+
+.tabledata {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.thead {
+  padding: 5px 5px;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  overflow-y: auto;
+  font-family: poppins;
+}
+
+th {
+  background-color: white;
+  color: #6b6c72;
+  text-align: left;
+  height: 50px;
+}
+
+.table-row {
+  border-bottom: 5px solid white;
+  border-spacing: 10%;
+}
+
+td {
+  text-align: left;
+  height: 50px;
+}
+
+tr {
+  background-color: #f5f7f9;
+}
+
+.type-discarded {
+  background-color: #ffeae7;
+  color: red;
+  border: none;
+  width: 65%;
+  border-radius: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.type-Want {
+  background-color: #f1fef3;
+  color: #28b97f;
+  border: none;
+  width: 65%;
+  border-radius: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.type-Waiting {
+  background-color: #fff7e3;
+  border-radius: 10%;
+  color: #e2a34e;
+  border: none;
+  width: 65%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.type-Cancelled {
+  background-color: #ebebeb;
+  border-radius: 10%;
+  color: #9296a3;
+  border: none;
+  width: 65%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-wrapper {
+  height: 70px;
+  border-bottom: 1px solid #c9c7c7;
+}
+
+.brand-name {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  margin: 0 30px 0 50px;
+  font-size: 1.5rem;
+}
+
+.header-title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  margin: 0 30px 0 30px;
+  font-size: 1.25rem;
+}
+
+.right-header {
+  position: relative;
+  margin-right: 20px;
+}
+
+.right-header span {
+  cursor: pointer;
+}
+
+.right-header img {
+  height: 30px;
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.right-header-icon {
+  padding: 15px;
+}
+
+.navlist {
+  width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-right: 1px solid #c9c5c5;
+  padding-left: 5px;
+}
+
+.navitem-top {
+  padding-bottom: 60px;
+}
+
+.nav-icons {
+  padding: 15px 0 15px 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.nav-icons:hover {
+  background-color: #f2fcf4;
+  border-left: 2px solid #00b11c;
+  color: #00b11c;
+}
+
+.nav-icons-title {
+  font-size: .8rem;
+  padding: 10px 0 10px 10px;
+}
+
+.navbar-fonts {
+  font-family: Poppins;
+}
+
+.nav-link {
+  margin-bottom: 10px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

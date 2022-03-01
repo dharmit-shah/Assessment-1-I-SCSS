@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scss | Assignment-1</title>
+    <link rel="stylesheet" href="Assets/icons/style.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+
+<body>
+    <div class="d-flex flex-column h-100">
+
+        <!-- start:header -->
+        <header id="header">
+            <div class="header-wrapper d-flex justify-content-between">
+                <div class="d-flex leftside-header">
+
+                    <!-- Brand name -->
+                    <div class="left-header d-flex justify-content-between">
+                        <span class="brand-name d-flex justify-content-between">
+                            <p>TallyScan</p>
+                        </span>
+                        
+                        <!-- dashboard -->
+                        <div class="header-title d-flex justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <p>Dashboard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- rightside header -->
+                <div class="d-flex right-header align-items-center justify-content-between">
+                    <div class="right-header-icon">
+                        <span class="icon-bell-header"></span>
+                    </div>
+                    <img src="Assets/images/profile.jpg" alt="profile" width="50px" height="40px">
+                    <span class="p-5">John Smith</span>
+                    <span class="icon-upside-down"></span>
+                </div>
+            </div>
+        </header>
+        <!-- end:header -->
+
+        <div class="d-flex h-100">
+            <!-- start:sidebar -->
+            <div class="main-content d-flex h-100">
+                <aside class="d-flex flex-column h-100">
+                    <div class="navlist">
+                        <!-- start: sidebar-top-->
+                        <ul class="navitem-top d-flex flex-column">
+                            <div class="nav-link">
+                                <li class="nav-icons-title">
+                                    <b>GENERAL</b>
+                                </li>
+                                <li class="nav-icons icon-search">
+                                    <span class="navbar-fonts">Search</span>
+                                </li>
+                                <li class="nav-icons icon-bell">
+                                    <span class="navbar-fonts">Alerts</span>
+                                </li>
+                                <li class="nav-icons icon-tags">
+                                    <span class="navbar-fonts">Tags</span>
+                                </li>
+                            </div>
+                        </ul>
+                        <!-- end:sidebar-top : -->
+
+                        <!-- start: sidebar bottom:  -->
+                        <ul class="navitem-bottom d-flex flex-column">
+                            <div class="nav-link">
+                                <li class="nav-icons-title">
+                                    <b>OTHERS</b>
+                                </li>
+                                <li class="nav-icons icon-settings">
+                                    <span class="navbar-fonts">Settings</span>
+                                </li>
+                                <li class="nav-icons icon-sun-tips">
+                                    <span class="navbar-fonts">Tips</span>
+                                </li>
+                                <li class="nav-icons icon-trash">
+                                    <span class="navbar-fonts">Trash</span>
+                                </li>
+                                <li class="nav-icons icon-log-out">
+                                    <span class="navbar-fonts">Logout</span>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- end: sidebar bottom:  -->
+                </aside>
+            </div>
+            <!-- end: sidebar -->
+
+            <!-- start:main -->
+            <div class="d-flex main flex-column flex-grow-1">
+                <!-- card:title -->
+                <section class="d-flex flex-row">
+                    <div class="filter">
+                        <button class="btn btn-btn-primary">
+                            <div class="filter-text">
+                                <span class="icon-filter"><span class="navbar-fonts"> Filter</span></span>
+                            </div>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- cards -->
+                <div class="d-flex card-section justify-content-between">
+
+                    <!-- start: card 1 -->
+                    <div class="card flex-row d-flex justify-content-between">
+                        <div class="card-box-left flex-column d-flex">Sans
+                            <div class="card1-righticon d-flex">350</div>
+                        </div>
+                        <div class="card-box-right1">
+                            <div class=" card-right-icons icon-barcode"></div>
+                        </div>
+                    </div>
+                    <!-- end:card 1 -->
+
+                    <!-- start:card 2 -->
+                    <div class="card flex-row d-flex justify-content-between">
+                        <div class="card-box-left flex-column d-flex">Sans
+                            <div class="card1-righticon d-flex">350</div>
+                        </div>
+                        <div class="card-box-right2">
+                            <div class="card-right-icons icon-list"></div>
+                        </div>
+                    </div>
+                    <!-- end:card 2 -->
+
+                    <!-- start:card 3 -->
+                    <div class="card flex-row d-flex justify-content-between">
+                        <div class="card-box-left flex-column d-flex">Sans
+                            <div class="card1-righticon d-flex">350</div>
+                        </div>
+                        <div class="card-box-right3">
+                            <div class="card-right-icons icon-cash"></div>
+                        </div>
+                    </div>
+                    <!-- end:card 3 -->
+
+                    <!-- start:card 4 -->
+                    <div class="card flex-row d-flex justify-content-between">
+                        <div class="card-box-left flex-column d-flex">Sans
+                            <div class="card1-righticon d-flex">350</div>
+                        </div>
+                        <div class="card-box-right4">
+                            <div class="card-right-icons icon-shopping-cart"></div>
+                        </div>
+                    </div>
+                    <!-- end:card 4 -->
+
+                    <!-- start:card 5 -->
+                    <div class="card flex-row d-flex justify-content-between">
+                        <div class="card-box-left flex-column d-flex">Sans
+                            <div class="card1-righticon d-flex">350</div>
+                        </div>
+                        <div class="card-box-right5">
+                            <div class="card-right-icons icon-dollar-sign"></div>
+                        </div>
+                    </div>
+                    <!-- end:card 5 -->
+
+                    <!-- start:card 6 -->
+                    <div class="card flex-row d-flex justify-content-between">
+                        <div class="card-box-left flex-column d-flex">Sans
+                            <div class="card1-righticon d-flex">350</div>
+                        </div>
+                        <div class="card-box-right6">
+                            <div class="card-right-icons icon-heart"></div>
+                        </div>
+                    </div>
+                    <!-- end:card 6 -->
+                    <!-- end:card section -->
+                </div>
+                <!-- start:mid-title -->
+                <section class="d-flex flex-row">
+                    <div class="title2">
+                        <span>Recent Activity</span>
+                </section>
+                <!-- end:mid-title -->
+
+                <!-- start:table -->
+                <section class="d-flex table-sec justify-content-between">
+                    <div class="table-wrapper">
+                        <div class="tabledata">
+                            <table class="table">
+
+                                <!-- table head -->
+                                <thead>
+
+                                    <th class="thead">Item</th>
+                                    <th class="thead">Date</th>
+                                    <th class="thead">Type</th>
+                                    <th class="thead">Est. Cost</th>
+                                    <th class="thead">Last</th>
+                                    <th class="thead">List</th>
+                                    <th class="thead">Auto</th>
+                                    <th class="thead">Buy Now</th>
+                                </thead>
+
+                                <!-- table body -->
+                                <tbody>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-discarded">discarded</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>
+                                            <figure>
+                                                <img src="./Assets/images/amazon.png" alt="" width="65px">
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-Want">Want</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>N /A</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-Waiting">Waiting</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>
+                                            <figure>
+                                                <img src="./Assets/images/amazon.png" alt="" width="65px">
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-discarded">discarded</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>N /A</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-Cancelled">Cancelled</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>
+                                            <figure>
+                                                <img src="./Assets/images/amazon.png" alt="" width="65px">
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-Want">Want</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>N / A</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-Want">Want</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>
+                                            <figure>
+                                                <img src="./Assets/images/amazon.png" alt="" width="65px">
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-Want">Want</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>N / A</td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-discarded">discarded</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>
+                                            <figure>
+                                                <img src="./Assets/images/amazon.png" alt="" width="65px">
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="table-image d-flex">
+                                            <figure class="d-flex">
+                                                <img src="./Assets/images/can.jpg" alt="" width="45px" height="40px"
+                                                    class="table-figure justify-content-center">
+                                                <span> Skippy Peanut Butter 160z </span>
+                                            </figure>
+                                        </td>
+                                        <td>07 Nov, 8.35pm</td>
+                                        <td>
+                                            <div class="type-Want">Want</div>
+                                        </td>
+                                        <td class=>$40.27</td>
+                                        <td>18 Aug</td>
+                                        <td>Grocery</td>
+                                        <td>No</td>
+                                        <td>
+                                            <figure>
+                                                <img src="./Assets/images/amazon.png" alt="" width="65px">
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- end:table -->
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

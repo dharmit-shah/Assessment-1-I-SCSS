@@ -1,0 +1,43 @@
+// Header wrapper
+.header-wrapper{
+    height: 70px;
+    border-bottom: 1px solid rgb(201, 199, 199);
+}
+
+.brand-name { 
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    margin: 0 30px 0 50px;
+    font-size: 1.5rem;
+}
+
+.header-title {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    margin: 0 30px 0 30px;
+    font-size: 1.25rem
+}
+
+// rightside header
+.right-header{
+    position: relative;
+    margin-right: 20px;
+}
+
+.right-header span {
+    // margin: 10px;
+    cursor: pointer;
+}
+
+.right-header img {
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.right-header-icon {
+    padding: 15px;
+}

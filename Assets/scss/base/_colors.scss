@@ -1,0 +1,31 @@
+// All the SCSS colors goes here
+// Theme Primary Color
+$primary: #438ffe;
+
+// Mainly use for UI controls like Buttons
+$secondary: #b7bbc8;
+
+// Mainly use for Normal Text color
+$gray: #b5b6ba;
+
+// Additional Shades of gray color
+$light: #f8fafc;
+$extra-light: #fcfcfc;
+
+//Main background
+$main-bg: #f8f8f8;
+
+//Content-bg
+$primary-content-bg: white;
+
+// Dedicated for button text only
+$btn-text-primary: $primary;
+//border-color
+
+$border-color: $main-bg;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "gray": $gray,
+  "light": $light,
+);

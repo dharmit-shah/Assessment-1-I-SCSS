@@ -1,0 +1,35 @@
+.navlist{
+    width: 200px;
+    align-items: center;
+    flex-grow: 1;
+    border-right: 1px solid rgb(201, 197, 197);
+    padding-left: 5px;
+}
+
+.navitem-top{
+    padding-bottom: 60px;
+}
+
+.nav-icons {
+    padding: 15px 0 15px 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.nav-icons:hover{
+    background-color: #f2fcf4;
+    border-left: 2px solid #00b11c;
+    color: #00b11c;
+}
+.nav-icons-title{
+    font-size: .8rem;
+    padding: 10px 0 10px 10px;
+}
+
+.navbar-fonts {
+    font-family: Poppins;
+}
+
+.nav-link {
+    margin-bottom: 10px;
+}

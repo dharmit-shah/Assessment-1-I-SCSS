@@ -1,0 +1,99 @@
+// table-section
+.table-sec {
+    padding-top: 15px;
+    height: 600px;
+}
+
+.table-wrapper {
+    width: 100%;
+    height: 100%;
+    padding:  20px;  
+    background-color: white;
+}
+
+.tabledata {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    overflow:auto;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+// table-head
+.thead {
+    padding: 5px 5px;
+    background-color: white;
+    position: sticky;
+    top: 0%;
+    overflow-y: auto;
+    font-family: poppins;
+}
+
+th {
+    background-color: rgb(255, 255, 255);
+    color: #6b6c72;
+    text-align: left;
+    height: 50px;
+}
+
+// table-row
+.table-row {
+    border-bottom: 5px solid white;
+    border-spacing: 10%;
+}
+
+td {
+    text-align: left;
+    height: 50px;
+}
+
+tr {
+    background-color: #f5f7f9;
+}
+
+// table-type effets
+.type-discarded{
+    background-color: #ffeae7;
+    color: red;
+    border: none;
+    width: 65%;
+    border-radius: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.type-Want {
+    background-color: #f1fef3;
+    color: #28b97f;
+    border: none;
+    width: 65%;
+    border-radius: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.type-Waiting{
+    background-color: #fff7e3;
+    border-radius: 10%;
+    color: #e2a34e;
+    border: none;
+    width: 65%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.type-Cancelled {
+    background-color: #ebebeb;
+    border-radius: 10%;
+    color: #9296a3;
+    border: none;
+    width: 65%;
+    text-align: center;
+    cursor: pointer;    
+}

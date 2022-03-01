@@ -1,0 +1,94 @@
+// main-titlebar
+.main {
+    padding: 20px;
+    background-color: #fafafa;
+    text-align: right;
+}
+
+.filter {
+    width: 100%;
+}
+
+.btn-btn-primary {
+    background-color: #00b11c;
+    outline: none;
+    height: 45px;
+    width: 110px;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;  
+}
+
+.filter-text{
+    color: #effff3;
+    font-size: 1rem;
+}
+
+.filter-text:hover{
+    color: black;
+}
+
+// card-section
+.card-section{
+    margin: 10px 0 10px 0;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 15%;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease;
+    cursor: pointer;  
+}
+
+.card-box-left {
+    width: 175px;
+    text-align: left;
+}
+
+.card-right-icons {
+    margin: 13px;
+    font-size: 1.5rem;
+}
+
+.card-box-right1{
+    background-color: #f2f2f2;
+    border-radius: 50%;
+}   
+
+.card-box-right2{
+    background-color: #d7f8ff;
+    border-radius: 50%;
+}
+
+.card-box-right3{
+    background-color: #e7f8f0;
+    border-radius: 50%;
+}
+
+.card-box-right4{
+    background-color: #fff4e8;
+    border-radius: 50%;
+}
+
+.card-box-right5{
+    background-color: #f1f0ff;
+    border-radius: 50%;
+}
+
+.card-box-right6{
+    background-color: #ffeeed;
+    border-radius: 50%;
+}
+
+.card:hover{
+    background-color: #939393;
+    color: white;
+}
+
+// main-titlebar2
+.title2 {
+    margin: 15px 0 15px 0;
+    font-size: 1.25rem;
+}
